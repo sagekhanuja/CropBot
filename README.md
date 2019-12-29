@@ -1,4 +1,7 @@
 # CropBot: Empowering Low-Income Farmers through AI 
+
+## Team: Sage Khanuja, Nikolas Ioannou, Rinav Kasthuri
+
 ## Overview
 lorem ipsuml orem ipsumlorem ipsumlorem ipsum lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml 
 ## Inspiration
