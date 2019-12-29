@@ -1,4 +1,4 @@
-l# CropBot: Empowering Low-Income Farmers through AI 
+# CropBot: Empowering Low-Income Farmers through AI 
 ## Overview
 lorem ipsuml orem ipsumlorem ipsumlorem ipsum lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml 
 ## Inspiration
