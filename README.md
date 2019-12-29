@@ -1,25 +1,23 @@
 # CropBot: Empowering Low-Income Farmers through AI 
 
-## Team: Sage Khanuja, Nikolas Ioannou, Rinav Kasthuri
+### Team: Sage Khanuja, Nikolas Ioannou, Rinav Kasthuri
 
-## Overview
+### Overview
 lorem ipsuml orem ipsumlorem ipsumlorem ipsum lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml 
-## Inspiration
+### Inspiration
 
 lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml 
 
-## Objective
+### Objective
 
 **short sentence**
 
-## Methods
+### Methods
 
 lorem ipsuml (what data we used)
 
-## Impact
+### Impact
 
 Ilorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml lorem ipsuml 
 
 # **Overall, this app will**
-
-
