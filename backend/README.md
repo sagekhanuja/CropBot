@@ -1,3 +1,6 @@
+# Overview
+This page contains all of the code used to built the machine learning models and the datasets used to train them.
+
 # Datasets
 
 ## Crop Disease Detection
@@ -7,6 +10,10 @@
 ## Weed Detection
 
 - https://www.kaggle.com/fpeccia/weed-detection-in-soybean-crops
+
+## Crop Price Prediction
+
+- https://www.kaggle.com/raghu07/vegetable-and-fruits-price-in-india
 
 ## Best Crop Prediction
 
