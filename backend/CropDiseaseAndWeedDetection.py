@@ -80,6 +80,8 @@ class CropDiseaseAndWeedDetection:
     #      number of epochs to train the model for,
     #      number of steps to train on each epoch,
     #      number of samples to train on each step
+    #      number of iterations to run each set of epochs,
+    #      a flag for whether model evaluation is desired
     
     # post: trains the model according to the given hyperparameters
     def trainModel(self, model, numEpochs = 10, numSteps = 1000, batchSize = 16, numIterations = 1, canEvaluate = False):
@@ -100,6 +102,7 @@ class CropDiseaseAndWeedDetection:
         
         trainFlow = generator.flow_from_directory(self.trainDir, batch_size = batchSize)
         
+        # allows the model to periodically save
         for i in range(numIterations):
             model.fit_generator(trainFlow, steps_per_epoch = numSteps, epochs = numEpochs)
         
