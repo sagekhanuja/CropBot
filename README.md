@@ -19,8 +19,16 @@ This section will be split into three subsections to delineate the three distinc
 ### 1. Crop Disease and Weed Detection
 ![Model Structure - CDWD](https://github.com/sagek21/AGH/blob/master/CropDiseaseDetection.png)
 
+(A novel CNN architecture designed specifically for this app)
+
+The N-long softmax vector (where N is the number of classifiable crop diseases or weeds) of the model are sent to a Google API which then appropriately categorizes the outputs into the relevant disease and displays it.
+
 ### 2. Best Crop and Crop Price Prediction
 ![Model Structure - BCP](https://github.com/sagek21/AGH/blob/master/BestCrop.png)
+
+(A DNN for the Best Crop predictor and a LSTM-based net for the Crop Price predictor)
+
+For the Best Crop Predictor, an N-long softmax vector (where N is the number of classifiable crops) is utilized by the aforementioned Google API to produce the relevant output. In the case of the Crop Price predictor, a LSTM-based network predicts the price of a crop on the next day based on the previous three days' prices.
 
 ## Impact
 Our primary goal with CropBot is to help the impoverished and illiterate farmers who are being left to starve when droughts, storms, and floods, ravenous landlords or relatively richer farmers simply discard their livelihoods. Using CropBot, these farmers can significantly improve their situations by not only learning more on the field, but also by learning more about the field itself. Additionally, we have implemented our application through both text and voice to accommodate the desponding illiteracy that still unfortunately prevails in today’s world. In its ideal form, the app could potentially reduce the disparity between the yields of rich and poor farmers from 214% to a miniscule 5% (Restuccia et al., 2017).
