@@ -6,7 +6,7 @@ Created on Fri Dec 20 10:42:32 2019
 
 This is the Crop Disease and Weed Detection module for CropBot.
 
-The model defined below accepts a 256x256x3 image and classifies it
+The model defined below accepts a 256 x 256 x 3 image and classifies it
 as one of either 38 diseased crops or 2 weed-types.
 
 This model produced a 98% accuracy with the "New Plant Diseases Dataset"
