@@ -17,7 +17,7 @@ This page contains all of the code used to built the machine learning models as 
 
 ## Best Crop Prediction
 
-The dataset was produced by aggregating relevant statistics from several reputable websites:
+This dataset was produced by aggregating relevant statistics from several reputable websites:
 
 ### Corn
 
