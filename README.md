@@ -20,7 +20,7 @@ This section will be split into three subsections to delineate the distinct mode
 ### 1. Crop Disease and Weed Detection
 ![Model Structure - CDWD](https://github.com/sagek21/AGH/blob/master/CropDiseaseDetection.png)
 
-                        (made with NN SVG: http://alexlenail.me/NN-SVG/)
+                                        (made with NN SVG: http://alexlenail.me/NN-SVG/)
 
 ### 2. Best Crop Prediction
 Traditional DNN
