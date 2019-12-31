@@ -1,5 +1,5 @@
 # Overview
-This page contains all of the code used to built the machine learning models and the datasets used to train them.
+This page contains all of the code used to built the machine learning models and links to the datasets used to train them.
 
 # Datasets
 
