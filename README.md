@@ -5,7 +5,7 @@
 CropBot is a mobile application that allows farmers across the globe to more smartly utilize their fields. This smarter utilization is facilitated through our voice assistant, Tea, who asks the farmer relevant questions about the state of his or her field to gauge prospective betterments and then implement them.
 
 ## Inspiration
-Most of our team comes from India. We’d witnessed the robbing of numerous farmers’ livelihoods due to preying middlemen, landlords, or simply a lack of relevant knowledge. We were surprised to find that there were no existing apps that focused on increasing accessibility of this knowledge for impoverished farmers. Thus, it became clear to us that there’d be a prominent utility for an app that could combat crop diseases, predict shock events such as droughts or floods, and provide useful information like the best crop to grow based on the land’s geographical features. Moreover, this presented our team with an opportunity and a challenge—to utilize our machine learning and app development skill sets to better the lives of millions.
+Most of our team comes from India. We’ve witnessed the robbing of numerous farmers’ livelihoods due to preying middlemen, landlords, or simply a lack of relevant knowledge. What surprised us, however, was finding that there were no existing apps that focused on increasing the accessibility of this knowledge to impoverished farmers. Thus, it became clear to us that there’d be a prominent utility for an app that could combat crop diseases, predict shock events such as droughts or floods, and provide useful information like the best crop to grow based on the land’s geographical features. Moreover, this presented our team with an opportunity and a challenge—to utilize our machine learning and app development skill sets to better the lives of millions.
 
 ## Methods
 TF 2.0 was used to producing the crop disease and weed detection, best crop, crop price, and drought prediction models.
@@ -18,6 +18,7 @@ This section will be split into four sections to delineate the distinct models u
   4. Drought Prediction
   
 ### Crop Disease and Weed Detection
+![Model Architecture](https://drive.google.com/drive/folders/1KlDuscfSNAFVoh9_OTImbzrL0LAng-5P/CropDiseaseDetection.png)
 
 ## Technology Utilized
 
