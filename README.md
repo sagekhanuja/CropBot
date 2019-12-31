@@ -13,9 +13,8 @@ The app currently features crop disease and weed detection and best crop, crop p
 This section will be split into three subsections to delineate the three distinct TF 2.0 models used to produce the aforementioned features:
 
   1. Crop Disease and Weed Detection
-  2. Best Crop Prediction
-  3. Crop Price Prediction
-  4. Drought Prediction
+  2. Best Crop and Crop Price Prediction
+  3. Drought Prediction
   
 ### 1. Crop Disease and Weed Detection
 ![Model Structure - CDWD](https://github.com/sagek21/AGH/blob/master/CropDiseaseDetection.png)
