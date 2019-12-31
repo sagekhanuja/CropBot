@@ -13,7 +13,7 @@ This model produced a 98% accuracy with the "New Plant Diseases Dataset"
 which can be found here: https://www.kaggle.com/vipoooool/new-plant-diseases-dataset
 
 To actually train this model, you will have to first download the above dataset
-and then change the "trainDir" and "validDir" to the appropriate training directory
+and then change "TRAIN_DIR" and "VALID_DIR" (at the bottom) to the appropriate training directory
 and validation directory.
 """
 
@@ -26,13 +26,14 @@ from tensorflow.keras import Sequential
 SHAPE = (256, 256, 3)
 NUM_CROPS = 38
 
+# store CropDiseaseAndWeedDetection.py in the same folder as the 
+# "New Plant Diseases Dataset" folder that contains the directories below
+TRAIN_DIR = r"New Plant Diseases Dataset(Augmented)\train"
+VALID_DIR = r"New Plant Diseases Dataset(Augmented)\valid"
+
+MODEL_NAME = "CropDiseaseDetection.h5"
+
 class CropDiseaseAndWeedDetection:
-    # post: initializes the prospective model's name, the directory to extract training data
-    #       from, and the directory to extract validation data from
-    def __init__(self, modelName, tDir, vDir):
-        self.modelName = modelName
-        self.trainDir = tDir
-        self.validDir = vDir
     
     
     # post: produces the required model if model is None, else loads the given model
@@ -84,7 +85,8 @@ class CropDiseaseAndWeedDetection:
     #      a flag for whether model evaluation is desired
     
     # post: trains the model according to the given hyperparameters
-    def trainModel(self, model, numEpochs = 10, numSteps = 1000, batchSize = 16, numIterations = 1, canEvaluate = False):
+    def trainModel(self, model, numEpochs = 10, numSteps = 1000,
+                   batchSize = 16, numIterations = 1, canEvaluate = False):
         # augmentations to apply to the images when feeding into the model
         # this both helps the model learn across a broader range of data
         # and also helps prevent overfitting
@@ -100,29 +102,20 @@ class CropDiseaseAndWeedDetection:
                 
         generator = ImageDataGenerator(**genData)
         
-        trainFlow = generator.flow_from_directory(self.trainDir, batch_size = batchSize)
+        trainFlow = generator.flow_from_directory(TRAIN_DIR, batch_size = batchSize)
         
         # allows the model to periodically save
         for i in range(numIterations):
             model.fit_generator(trainFlow, steps_per_epoch = numSteps, epochs = numEpochs)
-        
-            model.save(self.modelName)
+            model.save(MODEL_NAME)
         
         if canEvaluate:    
-            validFlow = generator.flow_from_directory(self.validDir, batch_size = batchSize)
-            
+            validFlow = generator.flow_from_directory(VALID_DIR, batch_size = batchSize)
             print(model.evaluate(validFlow))
             
 if __name__ == "__main__":
-    modelName = "CropDiseaseDetection.h5"
+    cropBot = CropDiseaseAndWeedDetection()
     
-    # store this file in the same folder as the "New Plant Diseases Dataset" folder that
-    # contains the directory below
-    trainDir = r"New Plant Diseases Dataset(Augmented)\train"
-    validDir = r"New Plant Diseases Dataset(Augmented)\valid"
-    
-    cropBot = CropDiseaseAndWeedDetection(modelName, trainDir, validDir)
-    
-    model = cropBot.createModel(modelName)
+    model = cropBot.createModel()
     
     cropBot.trainModel(model)
