@@ -163,40 +163,39 @@ Dataset was produced by aggregating relevant statistics from several reputable w
  
 ### Pecan
 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+- https://homeguides.sfgate.com/temperature-zone-pecan-trees-69135.html
+- https://www.starkbros.com/products/nut-trees/pecan-trees
+- https://content.ces.ncsu.edu/growing-pecans-in-north-carolina
+- https://homeguides.sfgate.com/lime-application-rates-pecan-trees-53868.html
+- https://www.uaex.edu/publications/PDF/FSA-6131.pdf
+- https://www.growveg.com/plants/us-and-canada/how-to-grow-pecans/
+- https://www.farmersweekly.co.za/farm-basics/how-to-crop/advice-growing-pecan-nuts/
 
 ### Walnut
 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+- https://www.gardeningknowhow.com/edible/nut-trees/walnut/planting-walnut-trees.htm
+- https://permaculturenews.org/2016/11/23/essential-guide-everything-need-know-growing-walnuts-juglans-regia/
+- https://www.ncrs.fs.fed.us/pubs/wn/wn_2_01.pdf
+- https://homeguides.sfgate.com/good-dirt-walnut-trees-45251.html
+- http://www.fertilizerforless.com/2017/05/02/growing-walnuts-organically/
+- https://wikifarmer.com/walnut-tree-climate-requirements/
+- https://www.frutas-hortalizas.com/Fruits/Postharvest-Walnut.html
 
 ### Carrot
 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+- https://homeguides.sfgate.com/soil-climate-requirement-carrot-production-37802.html
+- https://www.gardeningknowhow.com/edible/vegetables/carrot/healthy-carrot-soil.htm
+- https://homeguides.sfgate.com/low-ph-soil-affecting-carrot-plant-68706.html
+- https://www.backyard-vegetable-gardening.com/watering-carrots.html
+- https://www.almanac.com/plant/carrots
+- https://gardening.usask.ca/articles-growing-information/carrots.php
 
 ### Bell Peppers
 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+- https://harvesttotable.com/how_to_grow_sweet_peppers/
+- https://gardenerspath.com/plants/vegetables/growing-using-bell-peppers/
+- https://www.goodhousekeeping.com/home/gardening/a20705612/growing-peppers/
+- https://homeguides.sfgate.com/soil-use-california-wonder-bell-pepper-53385.html
+- https://homeguides.sfgate.com/nutrient-requirements-pepper-plants-64028.html
+- https://www.almanac.com/plant/bell-peppers
+- http://agriculture.infoagro.com/crops/how-to-grow-peppers/
