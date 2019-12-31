@@ -23,7 +23,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.models import load_model
 from tensorflow.keras import Sequential
 
-IMG_SHAPE = (256, 256, 3)
+SHAPE = (256, 256, 3)
 NUM_CROPS = 38
 
 # store CropDiseaseAndWeedDetection.py in the same folder as the 
@@ -36,6 +36,8 @@ MODEL_NAME = "CropDiseaseDetection.h5"
 class CropDiseaseAndWeedDetection:
     
     
+    ### METHODS
+    
     # post: produces the required model if model is None, else loads the given model
     def createModel(self, model = None):
         lr = 0.0008
@@ -47,7 +49,7 @@ class CropDiseaseAndWeedDetection:
         
         if (model == None):
             model = Sequential([
-                Conv2D(32, (8, 8), input_shape = IMG_SHAPE, strides = (2, 2),
+                Conv2D(32, (8, 8), input_shape = SHAPE, strides = (2, 2),
                      kernel_initializer=kernel, activation = convActivation),
                 Conv2D(64, (16, 16),
                              kernel_initializer=kernel,
