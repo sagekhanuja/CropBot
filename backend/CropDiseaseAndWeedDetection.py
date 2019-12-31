@@ -115,8 +115,8 @@ if __name__ == "__main__":
     
     # store this file in the same folder as the "New Plant Diseases Dataset" folder that
     # contains the directory below
-    trainDir = r"C:\Users\rioto\Documents\ml stuff\AGH\new-plant-diseases-dataset\New Plant Diseases Dataset(Augmented)\New Plant Diseases Dataset(Augmented)\corrected\train_weed"
-    validDir = r"C:\Users\rioto\Documents\ml stuff\AGH\new-plant-diseases-dataset\New Plant Diseases Dataset(Augmented)\New Plant Diseases Dataset(Augmented)\corrected\valid_weed"
+    trainDir = r"New Plant Diseases Dataset(Augmented)\train"
+    validDir = r"New Plant Diseases Dataset(Augmented)\valid"
     
     cropBot = CropDiseaseAndWeedDetection(modelName, trainDir, validDir)
     
