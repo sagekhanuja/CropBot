@@ -34,5 +34,3 @@ For the Best Crop Predictor, an N-long softmax vector (where N is the number of 
 
 ## Impact
 Our primary goal with CropBot is to help the impoverished and illiterate farmers who are being left to starve when droughts, storms, and floods, ravenous landlords or relatively richer farmers simply discard their livelihoods. Using CropBot, these farmers can significantly improve their situations by not only learning more on the field, but also by learning more about the field itself. Additionally, we have implemented our application through both text and voice to accommodate the desponding illiteracy that still unfortunately prevails in today’s world. In its ideal form, the app could potentially reduce the disparity between the yields of rich and poor farmers from 214% to a miniscule 5% (Restuccia et al., 2017).
-
-# **Overall, this app will**
