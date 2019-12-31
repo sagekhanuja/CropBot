@@ -8,7 +8,7 @@ CropBot is a mobile application that allows farmers across the globe to more sma
 Most of our team comes from India. We’d witnessed the robbing of numerous farmers’ livelihoods due to preying middlemen, landlords, or simply a lack of relevant knowledge. We were surprised to find that there were no existing apps that focused on increasing accessibility of this knowledge for impoverished farmers. Thus, it became clear to us that there’d be a prominent utility for an app that could combat crop diseases, predict shock events such as droughts or floods, and provide useful information like the best crop to grow based on the land’s geographical features. Moreover, this presented our team with an opportunity and a challenge—to utilize our machine learning and app development skill sets to better the lives of millions.
 
 ## Methods
-The app currently features crop disease and weed detection, best crop, crop price, and drought prediction.
+The app currently features crop disease and weed detection and best crop, crop price, and drought prediction.
 
 This section will be split into three subsections to delineate the distinct TF 2.0 models used to produce the aforementioned features:
 
