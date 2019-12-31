@@ -2,7 +2,7 @@
 # *By Nikolas Ioannou, Rinav Kasthuri, and Sage Khanuja*
 
 ## Overview
-CropBot is a mobile application that allows farmers across the globe to more smartly utilize their fields. This smarter utilization is facilitated through our voice assistant, Tea, who asks the farmer relevant questions about the state of his or her field to gauge prospective betterments and then implement them.
+CropBot is a mobile application that allows farmers across the globe to more smartly utilize their fields. This smarter utilization is facilitated through a voice assistant which asks the farmer relevant questions about the state of his or her field to gauge prospective betterments and then implement them.
 
 ## Inspiration
 Most of our team comes from India. We’d witnessed the robbing of numerous farmers’ livelihoods due to preying middlemen, landlords, or simply a lack of relevant knowledge. We were surprised to find that there were no existing apps that focused on increasing accessibility of this knowledge for impoverished farmers. Thus, it became clear to us that there’d be a prominent utility for an app that could combat crop diseases, predict shock events such as droughts or floods, and provide useful information like the best crop to grow based on the land’s geographical features. Moreover, this presented our team with an opportunity and a challenge—to utilize our machine learning and app development skill sets to better the lives of millions.
