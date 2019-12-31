@@ -10,7 +10,7 @@ Most of our team comes from India. We’d witnessed the robbing of numerous farm
 ## Methods
 The app currently features crop disease and weed detection and best crop, crop price, and drought prediction.
 
-This section will be split into three subsections to delineate the distinct TF 2.0 models used to produce the aforementioned features:
+This section will be split into three subsections to delineate the three distinct TF 2.0 models used to produce the aforementioned features:
 
   1. Crop Disease and Weed Detection
   2. Best Crop Prediction
