@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1428B1123BB337900F186C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1428B1023BB337900F186C1 /* AppDelegate.swift */; };
+		A1428B1323BB337900F186C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1428B1223BB337900F186C1 /* SceneDelegate.swift */; };
+		A1428B1523BB337900F186C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1428B1423BB337900F186C1 /* ViewController.swift */; };
+		A1428B1A23BB337C00F186C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1428B1923BB337C00F186C1 /* Assets.xcassets */; };
+		A1428B1D23BB337C00F186C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1428B1B23BB337C00F186C1 /* LaunchScreen.storyboard */; };
+		A1428B2523BB365B00F186C1 /* ChatTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1428B2423BB365B00F186C1 /* ChatTextCell.swift */; };
+		A1428B2723BB394C00F186C1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1428B2623BB394C00F186C1 /* Constants.swift */; };
+		A16AE7FD23BBAFE100708E0A /* ChatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16AE7FC23BBAFE100708E0A /* ChatText.swift */; };
+		A16AE80323BBB50E00708E0A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16AE80223BBB50E00708E0A /* Extensions.swift */; };
+		A1826CB623BC13ED00E5B4C7 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1826CB523BC13ED00E5B4C7 /* APIManager.swift */; };
+		A1826CB823BC1A4A00E5B4C7 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1826CB723BC1A4A00E5B4C7 /* StartViewController.swift */; };
+		A1826CBA23BC26D600E5B4C7 /* Intent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1826CB923BC26D600E5B4C7 /* Intent.swift */; };
+		A1826CBC23BC388C00E5B4C7 /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1826CBB23BC388C00E5B4C7 /* PrivacyViewController.swift */; };
+		A1D1F62223BBBF8600CC57E5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D1F62123BBBF8600CC57E5 /* SettingsViewController.swift */; };
+		A1D1F62423BBC18800CC57E5 /* TitleSubtitleStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D1F62323BBC18800CC57E5 /* TitleSubtitleStackView.swift */; };
+		A1D1F62623BBC3EE00CC57E5 /* IconTitleSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D1F62523BBC3EE00CC57E5 /* IconTitleSubtitle.swift */; };
+		A1D1F62823BBC47C00CC57E5 /* IconTitleSubtitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D1F62723BBC47C00CC57E5 /* IconTitleSubtitleCell.swift */; };
+		A1D1F62A23BBD72C00CC57E5 /* TitleSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D1F62923BBD72C00CC57E5 /* TitleSectionView.swift */; };
+		A1D1F62C23BBE6C600CC57E5 /* ChatPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D1F62B23BBE6C600CC57E5 /* ChatPhotoCell.swift */; };
+		A1D1F63423BBECB400CC57E5 /* ChatPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D1F63323BBECB400CC57E5 /* ChatPhoto.swift */; };
+		CCA5D20CD3BDBE13BEFDDA3F /* Pods_CropBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF281DFA32A38F37E63D2AA9 /* Pods_CropBot.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04C6B0F553FE65B3AF9253B1 /* Pods-CropBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CropBot.debug.xcconfig"; path = "Target Support Files/Pods-CropBot/Pods-CropBot.debug.xcconfig"; sourceTree = "<group>"; };
+		A1428B0D23BB337900F186C1 /* CropBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CropBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1428B1023BB337900F186C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1428B1223BB337900F186C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1428B1423BB337900F186C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1428B1923BB337C00F186C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1428B1C23BB337C00F186C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1428B1E23BB337C00F186C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1428B2423BB365B00F186C1 /* ChatTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTextCell.swift; sourceTree = "<group>"; };
+		A1428B2623BB394C00F186C1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A16AE7FC23BBAFE100708E0A /* ChatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatText.swift; sourceTree = "<group>"; };
+		A16AE80223BBB50E00708E0A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A1826CB523BC13ED00E5B4C7 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		A1826CB723BC1A4A00E5B4C7 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		A1826CB923BC26D600E5B4C7 /* Intent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intent.swift; sourceTree = "<group>"; };
+		A1826CBB23BC388C00E5B4C7 /* PrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
+		A1D1F62123BBBF8600CC57E5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A1D1F62323BBC18800CC57E5 /* TitleSubtitleStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSubtitleStackView.swift; sourceTree = "<group>"; };
+		A1D1F62523BBC3EE00CC57E5 /* IconTitleSubtitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTitleSubtitle.swift; sourceTree = "<group>"; };
+		A1D1F62723BBC47C00CC57E5 /* IconTitleSubtitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTitleSubtitleCell.swift; sourceTree = "<group>"; };
+		A1D1F62923BBD72C00CC57E5 /* TitleSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSectionView.swift; sourceTree = "<group>"; };
+		A1D1F62B23BBE6C600CC57E5 /* ChatPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPhotoCell.swift; sourceTree = "<group>"; };
+		A1D1F63323BBECB400CC57E5 /* ChatPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPhoto.swift; sourceTree = "<group>"; };
+		B5C1D6380499884CC8184C03 /* Pods-CropBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CropBot.release.xcconfig"; path = "Target Support Files/Pods-CropBot/Pods-CropBot.release.xcconfig"; sourceTree = "<group>"; };
+		EF281DFA32A38F37E63D2AA9 /* Pods_CropBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CropBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1428B0A23BB337900F186C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA5D20CD3BDBE13BEFDDA3F /* Pods_CropBot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EDFD6F9F85EC68EB2768A53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF281DFA32A38F37E63D2AA9 /* Pods_CropBot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1428B0423BB337900F186C1 = {
+			isa = PBXGroup;
+			children = (
+				A1428B0F23BB337900F186C1 /* CropBot */,
+				A1428B0E23BB337900F186C1 /* Products */,
+				A8F687CD7B8BF455D4E6D951 /* Pods */,
+				8EDFD6F9F85EC68EB2768A53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A1428B0E23BB337900F186C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1428B0D23BB337900F186C1 /* CropBot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1428B0F23BB337900F186C1 /* CropBot */ = {
+			isa = PBXGroup;
+			children = (
+				A1428B1023BB337900F186C1 /* AppDelegate.swift */,
+				A1428B1223BB337900F186C1 /* SceneDelegate.swift */,
+				A16AE7FE23BBAFF700708E0A /* Model */,
+				A16AE7FF23BBB00500708E0A /* View */,
+				A16AE80023BBB00B00708E0A /* Controller */,
+				A1428B1923BB337C00F186C1 /* Assets.xcassets */,
+				A1428B1B23BB337C00F186C1 /* LaunchScreen.storyboard */,
+				A1428B1E23BB337C00F186C1 /* Info.plist */,
+			);
+			path = CropBot;
+			sourceTree = "<group>";
+		};
+		A16AE7FE23BBAFF700708E0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A16AE7FC23BBAFE100708E0A /* ChatText.swift */,
+				A1D1F63323BBECB400CC57E5 /* ChatPhoto.swift */,
+				A1D1F62523BBC3EE00CC57E5 /* IconTitleSubtitle.swift */,
+				A1826CB923BC26D600E5B4C7 /* Intent.swift */,
+				A1826CB523BC13ED00E5B4C7 /* APIManager.swift */,
+				A1428B2623BB394C00F186C1 /* Constants.swift */,
+				A16AE80223BBB50E00708E0A /* Extensions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A16AE7FF23BBB00500708E0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1D1F62323BBC18800CC57E5 /* TitleSubtitleStackView.swift */,
+				A1D1F62923BBD72C00CC57E5 /* TitleSectionView.swift */,
+				A16AE80123BBB3EE00708E0A /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A16AE80023BBB00B00708E0A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1428B1423BB337900F186C1 /* ViewController.swift */,
+				A1D1F62123BBBF8600CC57E5 /* SettingsViewController.swift */,
+				A1826CBB23BC388C00E5B4C7 /* PrivacyViewController.swift */,
+				A1826CB723BC1A4A00E5B4C7 /* StartViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A16AE80123BBB3EE00708E0A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A1428B2423BB365B00F186C1 /* ChatTextCell.swift */,
+				A1D1F62B23BBE6C600CC57E5 /* ChatPhotoCell.swift */,
+				A1D1F62723BBC47C00CC57E5 /* IconTitleSubtitleCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A8F687CD7B8BF455D4E6D951 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04C6B0F553FE65B3AF9253B1 /* Pods-CropBot.debug.xcconfig */,
+				B5C1D6380499884CC8184C03 /* Pods-CropBot.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1428B0C23BB337900F186C1 /* CropBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1428B2123BB337C00F186C1 /* Build configuration list for PBXNativeTarget "CropBot" */;
+			buildPhases = (
+				CF158EEF8E8D576787E8340D /* [CP] Check Pods Manifest.lock */,
+				A1428B0923BB337900F186C1 /* Sources */,
+				A1428B0A23BB337900F186C1 /* Frameworks */,
+				A1428B0B23BB337900F186C1 /* Resources */,
+				F4612B52FA4B1C5EB925B78D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CropBot;
+			productName = CropBot;
+			productReference = A1428B0D23BB337900F186C1 /* CropBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1428B0523BB337900F186C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Nikolas Ioannou";
+				TargetAttributes = {
+					A1428B0C23BB337900F186C1 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = A1428B0823BB337900F186C1 /* Build configuration list for PBXProject "CropBot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1428B0423BB337900F186C1;
+			productRefGroup = A1428B0E23BB337900F186C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1428B0C23BB337900F186C1 /* CropBot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1428B0B23BB337900F186C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1428B1D23BB337C00F186C1 /* LaunchScreen.storyboard in Resources */,
+				A1428B1A23BB337C00F186C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF158EEF8E8D576787E8340D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CropBot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4612B52FA4B1C5EB925B78D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CropBot/Pods-CropBot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CropBot/Pods-CropBot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CropBot/Pods-CropBot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1428B0923BB337900F186C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1428B2723BB394C00F186C1 /* Constants.swift in Sources */,
+				A1826CB823BC1A4A00E5B4C7 /* StartViewController.swift in Sources */,
+				A1428B1523BB337900F186C1 /* ViewController.swift in Sources */,
+				A1428B2523BB365B00F186C1 /* ChatTextCell.swift in Sources */,
+				A1D1F62623BBC3EE00CC57E5 /* IconTitleSubtitle.swift in Sources */,
+				A1826CBC23BC388C00E5B4C7 /* PrivacyViewController.swift in Sources */,
+				A1D1F62423BBC18800CC57E5 /* TitleSubtitleStackView.swift in Sources */,
+				A1D1F62223BBBF8600CC57E5 /* SettingsViewController.swift in Sources */,
+				A16AE7FD23BBAFE100708E0A /* ChatText.swift in Sources */,
+				A1826CBA23BC26D600E5B4C7 /* Intent.swift in Sources */,
+				A1D1F62A23BBD72C00CC57E5 /* TitleSectionView.swift in Sources */,
+				A1428B1123BB337900F186C1 /* AppDelegate.swift in Sources */,
+				A1D1F62823BBC47C00CC57E5 /* IconTitleSubtitleCell.swift in Sources */,
+				A1D1F63423BBECB400CC57E5 /* ChatPhoto.swift in Sources */,
+				A1428B1323BB337900F186C1 /* SceneDelegate.swift in Sources */,
+				A1826CB623BC13ED00E5B4C7 /* APIManager.swift in Sources */,
+				A1D1F62C23BBE6C600CC57E5 /* ChatPhotoCell.swift in Sources */,
+				A16AE80323BBB50E00708E0A /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1428B1B23BB337C00F186C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1428B1C23BB337C00F186C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1428B1F23BB337C00F186C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1428B2023BB337C00F186C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1428B2223BB337C00F186C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04C6B0F553FE65B3AF9253B1 /* Pods-CropBot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TC87JF6T7B;
+				INFOPLIST_FILE = CropBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolasgioannou.CropBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A1428B2323BB337C00F186C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5C1D6380499884CC8184C03 /* Pods-CropBot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TC87JF6T7B;
+				INFOPLIST_FILE = CropBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolasgioannou.CropBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1428B0823BB337900F186C1 /* Build configuration list for PBXProject "CropBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1428B1F23BB337C00F186C1 /* Debug */,
+				A1428B2023BB337C00F186C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1428B2123BB337C00F186C1 /* Build configuration list for PBXNativeTarget "CropBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1428B2223BB337C00F186C1 /* Debug */,
+				A1428B2323BB337C00F186C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1428B0523BB337900F186C1 /* Project object */;
+}
