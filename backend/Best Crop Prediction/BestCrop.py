@@ -25,7 +25,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.optimizers import Adam
 
 # file to extract data from
-DATA_FILE = "Best Crop Data v2.xlsx"
+DATA_FILE = "Best Crop Data.xlsx"
 
 # name to save the model with
 MODEL_NAME = "BestCrop.h5"
